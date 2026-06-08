@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION fn_full_name(IN first_name VARCHAR(20), IN last_name VARCHAR(20), OUT full_name VARCHAR(40))
+CREATE OR REPLACE FUNCTION fn_full_name(IN first_name VARCHAR(20), IN last_name VARCHAR(20), OUT full_name VARCHAR(41))
 AS
 $$
 	BEGIN
